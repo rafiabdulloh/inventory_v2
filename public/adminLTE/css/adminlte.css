@@ -5313,7 +5313,15 @@ a.badge-dark:focus, a.badge-dark.focus {
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
-
+.flash-inv {
+  position: relative;
+  margin-bottom: 1rem;
+  
+}
+.flash-prnt{
+  max-width:100%;
+  flex: 0 0 66.666667%;
+}
 .alert-heading {
   color: inherit;
 }

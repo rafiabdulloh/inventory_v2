@@ -1,7 +1,14 @@
 <?php
 
 namespace App\Controllers;
-
+use App\Models\barang\Barang;
+use App\Models\barang\Stok;
+use App\Models\barang\Pengiriman;
+use App\Models\barang\CatatanLaporan;
+use App\Models\barang\Penerimaan;
+use App\Models\barang\BarangKeluar;
+use App\Models\barang\Lokasi;
+use App\Models\barang\User;
 use CodeIgniter\I18n\Time;
 
 /**
@@ -16,18 +23,38 @@ use CodeIgniter\I18n\Time;
 
 class AuthController extends TamhorAuth
 {
+    public function __construct()
+    {
+        $this->session = session();
+        $this->barang = new Barang();
+        $this->stok = new Stok;
+        $this->pengiriman = new Pengiriman();
+        $this->catatan_laporan = new CatatanLaporan();
+        $this->barang_keluar = new BarangKeluar();
+        $this->penerimaan = new Penerimaan();
+        $this->lokasi = new Lokasi();
+        $this->user = new User();
+        $this->request = \Config\Services::request(); //memanggil class request
+
+        $this->db= \Config\Services::connect();
+
+
+        $model = model(User::class);
+        
+
+    }
     public function register()
     {
         $rules = [
             'fullname' => 'required|min_length[3]|max_length[20]',
             'email' => [
-                'rules' => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.email]',
+                'rules' => 'required|min_length[6]|max_length[50]|valid_email|is_unique[user.username]',
                 'errors' => [
                     'is_unique' => 'This email address already registered.'
                 ]
             ],
             'username' => [
-                'rules' => 'required|min_length[6]|max_length[200]|is_unique[users.username]',
+                'rules' => 'required|min_length[6]|max_length[200]|is_unique[user.username]',
                 'errors' => [
                     'is_unique' => 'This Username already use.'
                 ]
