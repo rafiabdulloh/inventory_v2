@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link" style="position:absolute">
+    <a href="/" class="brand-link" style="position:absolute">
         <img src="<?= base_url('adminLTE/img/AdminLTELogo.png')?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">AGRIODUCT</span>
     </a>
@@ -20,7 +20,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="/profil" class="nav-link">
                                     <p>Profil</p>
                                 </a>
                             </li>
@@ -49,85 +49,69 @@
                     </a>
                     
                 </li>
-                <li class="nav-item has-treeview accent-warning">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
-                        <p>
-                            Tabel
-                            <i class="fas fa-angle-left right"></i>
-                            <?php if($pending !== 0 OR $leadup !== 0 OR $pending_pen !==0){
-                                ?>
-                                <span class="badge badge-warning right" style="height:10px">
-                                <?php }?></span>
-                        </p>
+                <li class="nav-item">
+                    <a href="/penerimaan" class="nav-link">
+                    <i class='fas' style="margin-right:10px">&#xf07a;</i>
+                        <p>Penerimaan</p>
+                        <?php if($pending_pen !== 0){ ?>
+                        <span class="badge badge-danger right">
+                                <?= $pending_pen;?>
+                        </span>
+                        <?php }?>
                     </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="/penerimaan" class="nav-link">
-                            <i class='fas' style="margin-right:10px">&#xf07a;</i>
-                                <p>Penerimaan</p>
-                                <?php if($pending_pen !== 0){ ?>
-                                <span class="badge badge-danger right">
-                                        <?= $pending_pen;?>
-                                </span>
-                                <?php }?>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/stok/barang" class="nav-link">
-                            <i class='fas' style="margin-right:10px">&#xf1b2;</i>
-                                <p>Stok Barang</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/pengiriman" class="nav-link">
-                            <i class='fas' style="margin-right:7px">&#xf0d1;</i>
-                                <p>Pengiriman</p>
-                                <?php if($pending !== 0 OR $leadup !== 0){ ?>
-                                <span class="badge badge-danger right">
-                                        <?php if($pending > 0 && $leadup == 0){
-                                            echo $pending;
-                                            }if($leadup > 0 && $pending == 0){
-                                                echo $leadup;
-                                            }if($pending !== 0 && $leadup !== 0){
-                                                echo $pending + $leadup;
-                                            }
-                                        ?>
-                                </span>
-                                <?php }?>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/selesai" class="nav-link">
-                            <i class='fas' style="margin-right:10px">&#xf0ae;</i>
-                                <p>Selesai</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/barang/masuk" class="nav-link">
-                                <i class="fas fa-cubes" style="margin-right:10px"></i>                                
-                                <p>Barang Masuk</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/barang/keluar" class="nav-link">
-                                <i class="fas fa-cubes" style="margin-right:10px"></i>
-                                <p>Barang Keluar</p>
-                            </a>
-                        </li>
-                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="/stok/barang" class="nav-link">
+                    <i class='fas' style="margin-right:10px">&#xf1b2;</i>
+                        <p>Stok Barang</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/pengiriman" class="nav-link">
+                    <i class='fas' style="margin-right:7px">&#xf0d1;</i>
+                        <p>Pengiriman</p>
+                        <?php if($pending !== 0 OR $leadup !== 0){ ?>
+                        <span class="badge badge-danger right">
+                                <?php if($pending > 0 && $leadup == 0){
+                                    echo $pending;
+                                    }if($leadup > 0 && $pending == 0){
+                                        echo $leadup;
+                                    }if($pending !== 0 && $leadup !== 0){
+                                        echo $pending + $leadup;
+                                    } ?>
+                        </span>
+                        <?php }?>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/selesai" class="nav-link">
+                    <i class='fas' style="margin-right:10px">&#xf0ae;</i>
+                        <p>Selesai</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/barang/masuk" class="nav-link">
+                        <i class="fas fa-cubes" style="margin-right:10px"></i>                                
+                        <p>Barang Masuk</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/barang/keluar" class="nav-link">
+                        <i class="fas fa-cubes" style="margin-right:10px"></i>
+                        <p>Barang Keluar</p>
+                    </a>
                 </li>
                 <li class="nav-item has-treeview accent-warning">
                     <a href="/lokasi" class="nav-link">
-                    <i class="fas fa-map-marker-alt" style="font-size:20px;margin-left:5px"></i>
-                        <p style="margin-left:10px">Lokasi Distribusi</p>
+                    <i class="fas fa-map-marker-alt" style="font-size:20px;margin-right:10px"></i>
+                        <p>Lokasi Distribusi</p>
                     </a>
                 </li>
                 <?php if($accessibility == "admin"){?>
                 <li class="nav-item has-treeview accent-warning">
                     <a href="/user" class="nav-link">
-                    <i class="far fa-user-circle" style="font-size:20px;margin-left:5px"></i>
-                        <p style="margin-left:7px">Pengguna</p>
+                    <i class="far fa-user-circle" style="font-size:20px;margin-right:6px"></i>
+                        <p>Pengguna</p>
                     </a>
                 </li>
                 <?php }?>

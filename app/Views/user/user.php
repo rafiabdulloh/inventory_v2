@@ -10,7 +10,7 @@
     <?php } ?>
     <?php if($accessibility == "admin"){ ?>
     <bottom class="btn btn-primary" style="margin-bottom:10px;display:inline-grid ;" data-toggle="modal" data-target="#tambah-user">
-        <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah Pengguna</span></i>
+        <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah User</span></i>
     </bottom>
     <?php }?>
     <table class="table-bordered table-hover" id="myTable">

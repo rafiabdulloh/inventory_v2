@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use Faker\Provider\Base;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -104,6 +106,12 @@ $routes->post('/edit/user/(:num)', 'Base\Pengguna::edit_user/$1');
 
 // contact
 $routes->add('/contact', 'Base\Home::contact');
+$routes->post('/get/stok', 'Base\Home::get_stok');
+
+// profil
+$routes->add('/profil', 'Base\Home::profil');
+$routes->add('/edit/name/(:num)', 'Base\Home::edit_name/$1');
+$routes->add('/edit/password/(:num)', 'Base\Home::edit_pass/$1');
 /**
  * --------------------------------------------------------------------
  * Additional Routing

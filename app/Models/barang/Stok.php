@@ -11,8 +11,19 @@ class Stok extends Model
     protected $useAutoIncrement = true;
     protected $allowedFields = ['alias', 'date_created', 'qty'];
 
-    public function id()
+    public function __construct() {
+
+        parent::__construct();
+        $db      = \Config\Database::connect();
+        $this->stok = $db->table('stok_barang');
+    }
+    public function get_stok($alias)
     {
-        return $this->where('id');
+        $builder = $this->stok;
+        $builder->select('qty');
+        $builder->where('alias', $alias);
+        $query = $builder->get();
+
+        return $query->getRow();
     }
 }

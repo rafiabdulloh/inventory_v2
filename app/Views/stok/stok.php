@@ -48,7 +48,11 @@
         <tr>
 	    	<td><?= $no ?></td>
 	    	<td style="text-transform:capitalize"><?= $brg['alias']?></td>
-	    	<td><?= $brg['qty']?> Kg</td>
+	    	<td><?php
+                    $num = $brg['qty'];
+                    $qty = number_format($num, 3, ',', '');
+                    echo $qty;
+                ?> Kg</td>
             <?php if($accessibility == "admin"){ ?>
 	    	<td style="text-align:center">
                 <a href="/delete/stock/<?= $brg['id']?>" style="color:#e61a1a">

@@ -102,10 +102,10 @@
             <form action="/kirim/barang" method="post">
 				<div class="form-group">
 	                <label for="recipient-name" class="col-form-label">Nama</label>
-                        <select name="alias" id="" class="select form-group col-form-label form-control">
+                        <select name="alias" id="alias" class="select form-group col-form-label form-control">
                     <option value="" selected disabled hidden>-- Pilih Barang --</option>
 					<?php foreach($stokBarang as $stok):?>
-						<option value="<?= $stok['alias']?>">
+						<option value="<?= $stok['alias']?>" class="qty">
 							<?= ucFirst($stok['alias'])?>
 						</option>
 					<?php endforeach ?>
@@ -121,7 +121,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-	                <label for="recipient-name" class="col-form-label">Jumlah</label>
+	                <label for="recipient-name" class="col-form-label">Jumlah <span id="current_stock"></span></label>
                     <input placeholder="Masukan angka" class="form-control" type="number" min="0" name="qty" id="total" required>
 	            </div>
 	            <label for="recipient-name" class="col-form-label">Satuan:</label>
@@ -159,8 +159,8 @@
                     <datalist id="list-alias">
                         <!-- <option value="" selected disabled hidden>-- Pilih Barang --</option> -->
                         <?php foreach($stokBarang as $stok):?>
-                            <option value="<?= $stok['alias']?>">
-                                <?= ucFirst($stok['alias'])?>
+                            <option value="<?= $stok['alias']?>" style="text-transform:capitalize">
+                                
                             </option>
                             <?php endforeach ?>
                     </datalist>
@@ -227,7 +227,7 @@
   <div class="modal-dialog">
     <div class="modal-content" style="margin-top:80px">
       <div class="modal-header">
-		  <h4 class="modal-title">Tambahkan Pengguna</h4>
+		  <h4 class="modal-title">Tambahkan User</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
@@ -353,18 +353,18 @@
                 <!-- <input placeholder="password" class="form-control" autocomplete="off" type="password" name="password" required> -->
                 <div class="input-group">
                     <input name="password" type="password" id="pw" class="form-control" placeholder="Password" required>
-                        <div class="input-group-append">
+                    <div class="input-group-append">
                             <!-- eye fitur to show and hide password -->
-                            <span id="eye" onclick="change_icon()" class="mata input-group-text">
+                      <span id="eye" onclick="change_icon()" class="mata input-group-text">
                              <!-- eye icon bootstrap  -->
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye-fill" fill="currentColor"
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-eye-fill" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
-                                    <path fill-rule="evenodd"
+                            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                            <path fill-rule="evenodd"
                                     d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
-                                </svg>
-                            </span>
-                      </div>
+                        </svg>
+                      </span>
+                    </div>
                 </div>
 	        </div>
             <div class="form-group">

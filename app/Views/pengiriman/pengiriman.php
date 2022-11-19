@@ -3,6 +3,9 @@
 <?= $this->include('dashboard/_partials/breadcrumb/breadcrumb') ?>
 
 <section class="content">
+    <bottom class="btn btn-primary" style="margin-bottom:10px;display:inline-grid ;" data-target="#kirim" data-toggle="modal">
+        <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah Pengiriman</span></i>
+    </bottom>
     <table class="table-bordered table-hover" id="myTable">
             <thead>
                 <th>No</th>

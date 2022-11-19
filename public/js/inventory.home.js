@@ -106,6 +106,38 @@ $(document).ready(function () {
 //   modal.find(".modal-body input").val();
 // });
 
+// tampilkan stok
+$("#kirim").on("show.bs.modal", function (e) {
+  var modal = $(this);
+  $('#alias').on('change', function(){
+    let alias = $(this).val();
+    $.ajax({
+      url: "/get/stok",
+      type: "POST",
+      dataType: "json",
+      data: {
+        alias: alias,
+      },
+      success: function (res) {
+        let stok = res.qty;
+        console.log(stok)
+        qty = stok.replace(/[^,\d]/g, ",").toString()
+        modal.find("#current_stock").text(qty);
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        Swal.fire({
+          title: "Terjadi Kesalahan!",
+          text: textStatus,
+          icon: "error",
+          showCancelButton: false,
+          showConfirmButton: false,
+          timer: 2000,
+        });
+      },
+    });
+  })
+});
+
 $("#edit-stok").on("show.bs.modal", function (e) {
   var a = $(e.relatedTarget);
   var alias = a.data("alias");
@@ -733,3 +765,9 @@ $(document).delegate("#cancel-pen", "click", function () {
     }
   });
 });
+
+$(document).ready(function(){
+  $("#e-pass").click(function(){
+    $("#form-user").toggle();
+  })
+})

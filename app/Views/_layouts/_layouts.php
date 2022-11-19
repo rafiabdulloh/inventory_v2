@@ -30,7 +30,7 @@
     <div class="wrapper">
         <?= $this->include('_layouts/_partials/navbar') ?>
         <?= $this->include('_layouts/_partials/sidebar') ?>
-        <div class="content-wrapper">
+        <div class="content-wrapper" style="padding-right:20px; padding-left:20px">
             <?= $this->renderSection('content') ?>
         </div>
     </div>

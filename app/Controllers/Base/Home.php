@@ -212,4 +212,80 @@ class Home extends BaseController
             return view('contact/contact', $data);
         }
     }
+
+    public function get_stok(){
+        $alias = $this->request->getPost('alias');
+        $stok = $this->stok->get_stok($alias);
+        $this->returnJson($stok);
+    }
+
+    public function profil()
+    {
+        $pending = $this->pengiriman->get_status();
+        $leadup = $this->pengiriman->status_leadUp();
+        $pending_pen = $this->penerimaan->pending();
+        $user = new User();
+        
+        $data['pending_pen']= $pending_pen;
+		$data['pending'] = $pending;
+		$data['leadup'] = $leadup;
+        $data['accessibility'] =$this->session->get('accessibility');
+        $data['name'] =$this->session->get('name');
+        $data['password'] =$this->session->get('password');
+        $data['title'] = "Profil ". session()->get('name');
+
+        $id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        // return json_encode($nameUser->name);
+        $data['nameUser'] = $nameUser->name;
+
+        if(!session()->has('username'))
+        {
+        	return redirect()->to(base_url('login'));
+        }else
+        {
+            return view('profil/profil', $data);
+        }
+    }
+
+    // edit name user
+    public function edit_name($id)
+    {
+        $user = new User();
+        $validation = \Config\Services::validation();
+        $validation->setRules(['name' => 'required']);
+        $isvalid = $validation->withRequest($this->request)->run();
+        $name = $this->request->getPost('name');
+        // return json_encode($name);
+        if($isvalid){
+            $user->update($id,[
+                'name' => $name,
+            ]);
+
+            return redirect('profil');
+        }else{
+            return json_encode("mana");
+        }
+    }
+
+    // edit password
+    public function edit_pass($id)
+    {
+        $user = new User();
+        $validation = \Config\Services::validation();
+        $validation->setRules(['password' => 'required']);
+        $isvalid = $validation->withRequest($this->request)->run();
+        $password = md5($this->request->getPost('password'));
+        // return json_encode($password);
+        if($isvalid){
+            $user->update($id,[
+                'password' => $password,
+            ]);
+
+            return redirect('profil');
+        }else{
+            return json_encode("mana");
+        }
+    }
+
 }
