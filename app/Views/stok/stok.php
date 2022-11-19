@@ -55,7 +55,7 @@
                 ?> Kg</td>
             <?php if($accessibility == "admin"){ ?>
 	    	<td style="text-align:center">
-                <a href="/delete/stock/<?= $brg['id']?>" style="color:#e61a1a">
+                <a href="#" style="color:#e61a1a" data-url="/delete/stock/<?= $brg['id']?>" id="delete-stok" data-id="<?= $brg['id']?>">
                     <i class="ion-trash-a btn btn-danger" style="width:40px"></i>
                 </a>
                 <a data-toggle="modal" data-target="#edit-stok" href="edit/stok/<?= $brg['id']?>" class="edit" data-id="<?= $brg['id']?>" data-alias="<?= $brg['alias']?>" data-stok="<?= $brg['qty']?>">

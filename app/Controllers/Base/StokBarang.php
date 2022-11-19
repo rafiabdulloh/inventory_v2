@@ -123,12 +123,14 @@ class StokBarang extends BaseController
     
     {
         $stok = new Stok;
-        $stok->delete($id);
+        $do_delete = $stok->delete($id);
+        if($do_delete){
+            $this->returnJson(array('status' => 'ok'));
+        } else {
+            $this->returnJson(array('status' => 'false')); 
+        };
 
         return redirect('stok/barang');
-
-
-        // $model = model(Stok::class);
 
     }
         // stok
