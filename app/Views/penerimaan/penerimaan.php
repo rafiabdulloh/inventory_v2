@@ -6,7 +6,7 @@
         <bottom class="btn btn-primary" style="margin-bottom:10px;display:inline-grid ;" data-target="#penerimaan" data-toggle="modal">
             <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah Penerimaan</span></i>
         </bottom>
-        <table class="table-bordered table-hover" id="myTable" style="color:black">
+        <table class="table-bordered table table-hover" id="myTable" style="color:black">
             <thead>
                 <tr>
                     <th>No</th>

@@ -1,15 +1,26 @@
 <?= $this->extend('auth/auth/_layout') ?>
 <?= $this->section('content') ?>
 
-<div class="hold-transition login-page bg-warning"">
+<div class="hold-transition login-page bg-secondary"">
   <div class="login-box">
     <!-- /.login-logo -->
-    <div class="card card-outline card-primary">
+    <!-- <div class="row align-items-center vh-100">
+        <div class="col-6 mx-auto">
+            <div class="card shadow border">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+        </div>
+    </div>
+</div> -->
+    <div class="card card-outline card-primary" >
       <div class="card-header text-center">
         <div>
-          <!-- <img src="<?= base_url('image/login.jpg')?>" alt="icon-login" width="250px" height="250px"> -->
+          <img src="<?= base_url('image/login.jpg')?>" alt="icon-login" width="250px" height="250px">
         </div>
-        <div class="h1"><b>Agrioduct</b></div>
+        <div class="h1" style="color:#252525"><b>Agrioduct</b></div>
       </div>
       <div class="card-body">
         <p class="login-box-msg">Sign in to start your session</p>
