@@ -265,6 +265,9 @@
                 <option value="" selected disabled hidden>-- Pilih Hak Akses --</option>
                     <option value="admin">Admin</option>
                     <option value="user">User</option>
+                    <?php if($accessibility == "superadmin"){?>
+                    <option value="superadmin">Superadmin</option>
+                    <?php }?>
                 </select>
 	        </div>
             <div class="modal-footer">
@@ -373,6 +376,9 @@
                 <option value="" selected disabled hidden>-- Pilih Hak Akses --</option>
                     <option value="admin">Admin</option>
                     <option value="user">User</option>
+                    <?php if($accessibility == "superadmin"){?>
+                    <option value="superadmin">Superadmin</option>
+                    <?php }?>
                 </select>
 	        </div>
             <div class="modal-footer">

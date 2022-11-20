@@ -5,13 +5,16 @@
 <section class="content">
     <div style="text-align: -webkit-center">
         <img src="<?= base_url('image/user.png')?>" style="margin-bottom:30px" width="200px" height="200px">
+        <div class="card card-border col-6" style="height:40px">
+            <span style="text-align:start;margin:8px">Username: <?= session()->get('username')?></span>
+        </div>
         <div class="card card-border col-6">
-        <span style="text-align:start">Name:</span>
-            <div>
-            <span style="position:relative; top:5px"><span style="float:left"><?= $nameUser?></span></span>
+            <span style="text-align:start;">Name:</span>
+            <div class="form">
+                <span style="position:relative; top:5px"><span style="float:left"><?= $nameUser?></span></span>
                 <i id="e-name" class="ion-edit btn btn-user" style="width:40px; float:right"></i>
                     <!-- </br> -->
-                    <form action="/edit/name/<?= session()->get('id')?>" method="post" style="display:none" id="name-user">
+                <form action="/edit/name/<?= session()->get('id')?>" method="post" style="display:none" id="name-user">
                     <div class="form-group">
                         <input placeholder="Masukan Nama Baru" class="form-control" autocomplete="off" type="text" name="name" required style="text-transform:capitalize">
                     </div>

@@ -79,7 +79,7 @@ class Pengirimanbarang extends BaseController
                 return redirect('stok/barang');
             };
 
-            return redirect('stok/barang');
+            return redirect('pengiriman');
     }
     //view pengiriman
     public function pengiriman()

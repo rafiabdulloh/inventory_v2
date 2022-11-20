@@ -8,7 +8,7 @@
             <?= session()->getFlashdata('error')?>
         </div>
     <?php } ?>
-    <?php if($accessibility == "admin"){ ?>
+    <?php if($accessibility == "admin" OR "superadmin"){ ?>
     <bottom class="btn btn-primary" style="margin-bottom:10px;display:inline-grid ;" data-toggle="modal" data-target="#tambah-user">
         <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah User</span></i>
     </bottom>
@@ -18,7 +18,7 @@
             <th>No</th>
             <th>Name</th>
             <th>aksibilitas</th>
-            <?php if($accessibility == "admin"){?>
+            <?php if($accessibility == "superadmin"){?>
                     <th>Action</th>
                     <?php }?>
         </thead>
@@ -28,7 +28,7 @@
                 <td><?= $no?></td>
                 <td style="text-transform:capitalize"><?= $u['name']?></td>
                 <td style="text-transform:capitalize"><?= $u['accessibility']?></td>
-                <?php if($accessibility == "admin"){?>
+                <?php if($accessibility == "superadmin"){?>
                         <td style="text-align:center">
                         <span>
                             <a href="#" style="color:#e61a1a" id="delete-user" data-id="<?= $u['id']?>">

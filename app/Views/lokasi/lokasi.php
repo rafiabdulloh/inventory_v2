@@ -14,7 +14,7 @@
                     <th>No</th>
                     <th>Nama</th>
                     <th>Alamat</th>
-                    <?php if($accessibility == "admin"){?>
+                    <?php if($accessibility == "admin" OR "superadmin"){?>
                     <th>Action</th>
                     <?php }?>
                 </tr>
@@ -25,7 +25,7 @@
                     <td><?= $no?></td>
                     <td><?= $loc['nama']?></td>
                     <td><?= $loc['alamat']?></td>
-                    <?php if($accessibility == "admin"){?>
+                    <?php if($accessibility == "admin" OR "superadmin"){?>
                     <td style="text-align:center">
                     <span>
                         <a href="#" style="color:#e61a1a" id="delete-lokasi" data-id="<?= $loc['id']?>">

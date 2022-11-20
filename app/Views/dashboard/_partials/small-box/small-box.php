@@ -99,7 +99,7 @@
             <a href="/barang/keluar" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
-    <?php if($accessibility == "admin"){?>
+    <?php if($accessibility == "admin" OR "superadmin"){?>
     <div class="col-lg-3 col-6">
         <!-- small box -->
         <div class="small-box bg-primary">

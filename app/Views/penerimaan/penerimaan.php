@@ -44,7 +44,7 @@
                     <td><?= $s?></td>
                     <td><?= $pen['date_created']?></td>
                     <td>
-                        <?php if($accessibility == "admin"){ ?>
+                        <?php if($accessibility == "admin" OR "superadmin"){ ?>
                         <span>
                             <?php $s = $pen['status'];
                             if($s !=1 && $s !=2){
