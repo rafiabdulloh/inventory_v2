@@ -104,6 +104,10 @@ class Pengirimanbarang extends BaseController
 		$data['leadup'] = $leadup;
 
         $data['success'] = $success;
+        $id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        $data['nameUser'] = $nameUser->name;
+
 
         // $status_pengiriman = $pengiriman->findColumn('status');
         // return json_encode($pending);

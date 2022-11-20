@@ -62,6 +62,10 @@ class Barangmasuk extends BaseController
         $data['success'] = $success;
 		$data['pending'] = $pending;
 		$data['leadup'] = $leadup;
+        $id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        $data['nameUser'] = $nameUser->name;
+
 
 
         if(!session()->has('username'))

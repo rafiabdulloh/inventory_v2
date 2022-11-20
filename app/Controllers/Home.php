@@ -17,6 +17,7 @@ class Home extends BaseController
 	public function index()
 	{
 		$this->session = session();
+        $this->user = new User();
 
 		$penerimaan = new Penerimaan();
 		$stok = new Stok();
@@ -47,6 +48,11 @@ class Home extends BaseController
 		$data['success'] = $success;
 		$data['leadup'] = $leadup;
         $data['accessibility'] = $this->session->get('accessibility');
+		$id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        // return json_encode($nameUser->name);
+        $data['nameUser'] = $nameUser->name;
+
 
 
 

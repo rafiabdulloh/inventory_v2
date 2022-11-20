@@ -78,6 +78,10 @@ class Home extends BaseController
         $data['accessibility'] =$this->session->get('accessibility');
         $data['title'] = "Catatan Laporan Selesai";
         $data['success'] = $success;
+        $id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        $data['nameUser'] = $nameUser->name;
+
 
         $data['pending'] = $pending;
         $data['leadup'] = $leadup;
@@ -108,6 +112,10 @@ class Home extends BaseController
         $data['accessibility'] =$this->session->get('accessibility');
         $data['title'] = "Barang Keluar";
         $data['success'] = $success;
+        $id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        $data['nameUser'] = $nameUser->name;
+
 
         $data['pending'] = $pending;
         $data['leadup'] = $leadup;
@@ -201,6 +209,10 @@ class Home extends BaseController
 		$data['pending'] = $pending;
 		$data['leadup'] = $leadup;
         $data['accessibility'] =$this->session->get('accessibility');
+        $id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        $data['nameUser'] = $nameUser->name;
+
 
 
         $data['title'] = "Contact";

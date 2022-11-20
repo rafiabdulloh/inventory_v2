@@ -79,6 +79,10 @@ class Lokasidistribusi extends BaseController
         $data['success'] = $success;
 		$data['pending'] = $pending;
 		$data['leadup'] = $leadup;
+        $id = session()->get('id');
+        $nameUser = $this->user->get_name($id);
+        $data['nameUser'] = $nameUser->name;
+
 
         $data['barang'] = $barang->findAll();
         $data['stokBarang']=$stok->findAll();

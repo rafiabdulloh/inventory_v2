@@ -16,7 +16,7 @@
                 <div class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false" style="width:177px; margin-left:10px">
                     <div class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                           <?= session()->get('name')?>
+                           <?= $nameUser?>
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
