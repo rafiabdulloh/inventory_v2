@@ -107,7 +107,7 @@
                         <p>Lokasi Distribusi</p>
                     </a>
                 </li>
-                <?php if($accessibility == "admin" OR "superadmin"){?>
+                <?php if($accessibility == "admin" OR $accessibility == "superadmin"){?>
                 <li class="nav-item has-treeview accent-warning">
                     <a href="/user" class="nav-link">
                     <i class="far fa-user-circle" style="font-size:20px;margin-right:6px"></i>

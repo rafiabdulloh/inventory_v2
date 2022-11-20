@@ -39,7 +39,7 @@
             <th>No</th>
             <th>Name</th>
             <th>Stok barang</th>
-            <?php if($accessibility == "admin" OR "superadmin"){ ?>
+            <?php if($accessibility == "admin" OR $accessibility == "superadmin"){ ?>
             <th style="text-align:center ;width:100px">Action</th>
                 <?php }?>
 	    </thead>
@@ -53,7 +53,7 @@
                     $qty = number_format($num, 3, ',', '');
                     echo $qty;
                 ?> Kg</td>
-            <?php if($accessibility == "admin" OR "superadmin"){ ?>
+            <?php if($accessibility == "admin" OR $accessibility == "superadmin"){ ?>
 	    	<td style="text-align:center">
                 <a href="#" style="color:#e61a1a" data-url="/delete/stock/<?= $brg['id']?>" id="delete-stok" data-id="<?= $brg['id']?>">
                     <i class="ion-trash-a btn btn-danger" style="width:40px"></i>

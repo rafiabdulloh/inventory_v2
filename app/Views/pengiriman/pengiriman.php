@@ -38,7 +38,7 @@
                     <td><?= $a ?></td>
                     <td><?= $dist['date_created']?></td>
                     <td>
-                    <?php if($accessibility == "admin" OR "superadmin"){ ?>
+                    <?php if($accessibility == "admin" OR $accessibility == "superadmin"){ ?>
                         <span>
                             <?php $b = $dist['status'];
                                 if($b == 0){
