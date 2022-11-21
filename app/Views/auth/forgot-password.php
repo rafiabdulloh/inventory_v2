@@ -1,7 +1,7 @@
 <?= $this->extend('auth/auth/_layout') ?>
 <?= $this->section('content') ?>
 
-<div class="hold-transition login-page">
+<div class="hold-transition login-page" style="background-color:#DC3545">
   <div class="login-box">
     <div class="card card-outline card-primary">
       <div class="card-header text-center">

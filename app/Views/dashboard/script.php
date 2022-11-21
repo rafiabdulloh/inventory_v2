@@ -271,5 +271,8 @@
       options: salesGraphChartOptions
     })
 
-  })
+  });
+  $(document).ready( function () {
+    $('#myTable').DataTable();
+} );
 </script>
