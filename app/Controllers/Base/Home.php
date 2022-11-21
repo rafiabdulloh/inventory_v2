@@ -78,18 +78,15 @@ class Home extends BaseController
         $data['accessibility'] =$this->session->get('accessibility');
         $data['title'] = "Catatan Laporan Selesai";
         $data['success'] = $success;
-        $id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
-        $data['nameUser'] = $nameUser->name;
-
-
         $data['pending'] = $pending;
         $data['leadup'] = $leadup;
         if(!session()->has('username'))
         {
         	return redirect()->to(base_url('login'));
         } else {
-
+            $id = session()->get('id');
+            $nameUser = $this->user->get_name($id);
+            $data['nameUser'] = $nameUser->name;
         return view('selesai/selesai', $data);
         }
     }
@@ -112,9 +109,7 @@ class Home extends BaseController
         $data['accessibility'] =$this->session->get('accessibility');
         $data['title'] = "Barang Keluar";
         $data['success'] = $success;
-        $id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
-        $data['nameUser'] = $nameUser->name;
+        
 
 
         $data['pending'] = $pending;
@@ -123,8 +118,10 @@ class Home extends BaseController
         {
         	return redirect()->to(base_url('login'));
         } else {
-
-        echo view('barang-keluar/barang_keluar', $data);
+            $id = session()->get('id');
+            $nameUser = $this->user->get_name($id);
+            $data['nameUser'] = $nameUser->name;
+        return view('barang-keluar/barang_keluar', $data);
         }
     }
 
@@ -209,19 +206,17 @@ class Home extends BaseController
 		$data['pending'] = $pending;
 		$data['leadup'] = $leadup;
         $data['accessibility'] =$this->session->get('accessibility');
-        $id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
-        $data['nameUser'] = $nameUser->name;
-
-
-
         $data['title'] = "Contact";
+
         if(!session()->has('username'))
         {
         	return redirect()->to(base_url('login'));
         }else
         {
-            return view('contact/contact', $data);
+            $id = session()->get('id');
+            $nameUser = $this->user->get_name($id);
+            $data['nameUser'] = $nameUser->name;    
+        return view('contact/contact', $data);
         }
     }
 
@@ -246,17 +241,15 @@ class Home extends BaseController
         $data['password'] =$this->session->get('password');
         $data['title'] = "Profil ". session()->get('name');
 
-        $id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
-        // return json_encode($nameUser->name);
-        $data['nameUser'] = $nameUser->name;
-
         if(!session()->has('username'))
         {
         	return redirect()->to(base_url('login'));
         }else
         {
-            return view('profil/profil', $data);
+            $id = session()->get('id');
+            $nameUser = $this->user->get_name($id);
+            $data['nameUser'] = $nameUser->name;    
+        return view('profil/profil', $data);
         }
     }
 

@@ -104,9 +104,7 @@ class Pengirimanbarang extends BaseController
 		$data['leadup'] = $leadup;
 
         $data['success'] = $success;
-        $id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
-        $data['nameUser'] = $nameUser->name;
+        
 
 
         // $status_pengiriman = $pengiriman->findColumn('status');
@@ -119,7 +117,9 @@ class Pengirimanbarang extends BaseController
         {
         	return redirect()->to(base_url('login'));
         } else {
-
+            $id = session()->get('id');
+            $nameUser = $this->user->get_name($id);
+            $data['nameUser'] = $nameUser->name;
         return view('pengiriman/pengiriman', $data);
         }
     }

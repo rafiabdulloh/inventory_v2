@@ -6,6 +6,7 @@
     <bottom class="btn btn-primary" style="margin-bottom:10px;display:inline-grid ;" data-target="#kirim" data-toggle="modal">
         <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah Pengiriman</span></i>
     </bottom>
+    <div style="overflow:auto">
     <table class="table-bordered table-hover" id="myTable">
             <thead>
                 <th>No</th>
@@ -83,6 +84,7 @@
                 <?php $no++; endforeach?>
             </tbody>
         </table>
+    </div>
         <?= $this->include('dashboard/_partials/form/form') ?>
 </section>
 <?= $this->endSection() ?>

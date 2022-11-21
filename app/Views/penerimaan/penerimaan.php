@@ -6,6 +6,7 @@
         <bottom class="btn btn-primary" style="margin-bottom:10px;display:inline-grid ;" data-target="#penerimaan" data-toggle="modal">
             <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah Penerimaan</span></i>
         </bottom>
+        <div style="overflow:auto">
         <table class="table-bordered table table-hover" id="myTable" style="color:black">
             <thead>
                 <tr>
@@ -30,12 +31,12 @@
                         // default: $s = "Kamu inputin data apa?";
                     };?>
                 <tr>
-                    <td><?= $no?></td>
-                    <td style="text-transform:capitalize"><?= $pen['alias']?></td>
-                    <td><?= $pen['qty']?></td>
-                    <td><?= $pen['satuan']?></td>
-                    <td><?= $pen['from']?></td>
-                    <td>Rp.<?php 
+                    <td data-label="no"><?= $no?></td>
+                    <td data-label="name" style="text-transform:capitalize"><?= $pen['alias']?></td>
+                    <td data-label="qty"><?= $pen['qty']?></td>
+                    <td data-label="satuan"><?= $pen['satuan']?></td>
+                    <td data-label="from"><?= $pen['from']?></td>
+                    <td data-label="harga">Rp.<?php 
                         $rp = $pen['harga'];
                         $number = number_format($rp , 2, ',', '.');
                         echo $number;
@@ -79,6 +80,7 @@
                 <?php $no++; endforeach?>
             </tbody>
         </table>
+        </div>
         <?= $this->include('dashboard/_partials/form/form') ?>
 </section>
 <?= $this->endSection() ?>

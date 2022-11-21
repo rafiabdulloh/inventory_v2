@@ -4,6 +4,7 @@
 
 <section class="content">
         <!-- <div class="btn btn-inline-primary tmpl insert-stock" id="insert-stock">+ Stok</div> -->
+        <div style="overflow:auto">
     <table class="table-bordered table-hover" id="myTable">
         <thead>
             <tr>
@@ -30,6 +31,7 @@
                 <?php $no++; endforeach?>
               </tbody>
         </table>
+        </div>
     <?= $this->include('dashboard/_partials/form/form') ?>
 </section>
 <?= $this->endSection() ?>

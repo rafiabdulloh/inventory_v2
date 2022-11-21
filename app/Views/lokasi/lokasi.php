@@ -8,6 +8,7 @@
             <i class="ion ion-plus" style="margin-right:5px"><span style="margin-left:5px">Tambah Lokasi</span></i>
         </bottom>
         <?php }?>
+        <div style="overflow:auto">
     <table class="table-bordered table-hover" id="myTable" style="color:black">
         <thead>
                 <tr>
@@ -41,6 +42,7 @@
                 <?php $no++; endforeach?>
             </tbody>
         </table>
+        </div>
         <?= $this->include('dashboard/_partials/form/form') ?>
 </section>
 <?= $this->endSection() ?>

@@ -5,10 +5,10 @@
 <section class="content">
     <div style="text-align: -webkit-center">
         <img src="<?= base_url('image/user.png')?>" style="margin-bottom:30px" width="200px" height="200px">
-        <div class="card card-border col-6" style="height:40px">
+        <div class="card card-border col-12" style="height:40px">
             <span style="text-align:start;margin:8px">Username: <?= session()->get('username')?></span>
         </div>
-        <div class="card card-border col-6">
+        <div class="card card-border col-12">
             <span style="text-align:start;">Name:</span>
             <div class="form">
                 <span style="position:relative; top:5px"><span style="float:left"><?= $nameUser?></span></span>
@@ -16,7 +16,7 @@
                     <!-- </br> -->
                 <form action="/edit/name/<?= session()->get('id')?>" method="post" style="display:none" id="name-user">
                     <div class="form-group">
-                        <input placeholder="Masukan Nama Baru" class="form-control" autocomplete="off" type="text" name="name" required style="text-transform:capitalize">
+                        <input placeholder="Masukan Nama Baru" class="form-control" autocomplete="off" type="text" name="name" required>
                     </div>
                     <div style="float:right; margin-bottom:5px">
                         <button class="btn btn-primary" id="submit" type="submit" name="submit" value="Send">Send</button>
@@ -25,7 +25,7 @@
                 </form>
             </div>
         </div>
-        <div class="card card-border col-6" style=" display:inline-table">
+        <div class="card card-border col-12" style=" display:inline-table">
         <span style="float: left; margin: 8px;">Password</span>
         <i id="e-pass" class="ion-edit btn btn-user" style="width:40px; float:right"></i>
             <div>

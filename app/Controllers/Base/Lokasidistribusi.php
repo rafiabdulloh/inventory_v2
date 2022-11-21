@@ -79,10 +79,6 @@ class Lokasidistribusi extends BaseController
         $data['success'] = $success;
 		$data['pending'] = $pending;
 		$data['leadup'] = $leadup;
-        $id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
-        $data['nameUser'] = $nameUser->name;
-
 
         $data['barang'] = $barang->findAll();
         $data['stokBarang']=$stok->findAll();
@@ -96,7 +92,10 @@ class Lokasidistribusi extends BaseController
         	return redirect()->to(base_url('login'));
         }else
         {
-            return view('lokasi/lokasi', $data);
+            $id = session()->get('id');
+            $nameUser = $this->user->get_name($id);
+            $data['nameUser'] = $nameUser->name;
+        return view('lokasi/lokasi', $data);
         }
     }
 

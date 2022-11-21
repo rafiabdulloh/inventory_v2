@@ -58,15 +58,15 @@ class StokBarang extends BaseController
         $data['accessibility'] =$this->session->get('accessibility');
         // return json_encode($data['lokasi']);
         $data['title'] = "Stok Barang";
-        $id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
-        $data['nameUser'] = $nameUser->name;
+        
 
         if(!session()->has('username'))
         {
         	return redirect()->to(base_url('login'));
         } else {
-
+            $id = session()->get('id');
+            $nameUser = $this->user->get_name($id);
+            $data['nameUser'] = $nameUser->name;
         return view('stok/stok', $data);
 
     }

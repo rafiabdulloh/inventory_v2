@@ -48,19 +48,17 @@ class Home extends BaseController
 		$data['success'] = $success;
 		$data['leadup'] = $leadup;
         $data['accessibility'] = $this->session->get('accessibility');
-		$id = session()->get('id');
-        $nameUser = $this->user->get_name($id);
         // return json_encode($nameUser->name);
-        $data['nameUser'] = $nameUser->name;
-
-
-
-
+		
 		if(!session()->has('username'))
         {
-        	return redirect()->to(base_url('login'));
+			return redirect()->to(base_url('login'));
+			
         } else {
-
+			$id = session()->get('id');
+			$nameUser = $this->user->get_name($id);
+			$data['nameUser'] = $nameUser->name;
 		return view('dashboard/dashboard', $data);}
+		
 	}
 }

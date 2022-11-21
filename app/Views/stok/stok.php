@@ -34,6 +34,7 @@
             </li>
         </ul>
         <!-- <div style="display:block;overflow-y:auto"> -->
+        <div style="overflow:auto">
     <table class="table-bordered table table-hover" id="myTable">
 	    <thead>
             <th>No</th>
@@ -67,6 +68,7 @@
             <?php $no++; endforeach; ?>
 	    </tbody>
     </table>
+        </div>
     <?= $this->include('dashboard/_partials/form/form') ?>
 </section>
 <?= $this->endSection() ?>

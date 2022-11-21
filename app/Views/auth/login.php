@@ -17,9 +17,6 @@
 </div> -->
     <div class="card card-outline card-primary" >
       <div class="card-header text-center">
-        <div>
-          <img src="<?= base_url('image/login.jpg')?>" alt="icon-login" width="250px" height="250px">
-        </div>
         <div class="h1" style="color:#252525"><b>Agrioduct</b></div>
       </div>
       <div class="card-body">

@@ -3,6 +3,7 @@
 <?= $this->include('dashboard/_partials/breadcrumb/breadcrumb') ?>
 
 <section class="content">
+<div style="overflow:auto">
     <table class="table-bordered" id="myTable">
         <thead>
             <th>No</th>
@@ -34,6 +35,7 @@
             <?php $no++; endforeach?>
         </tbody>
     </table>
+</div>
         <?= $this->include('dashboard/_partials/form/form') ?>
 </section>
 <?= $this->endSection() ?>
