@@ -1,0 +1,2305 @@
+CRITICAL - 2022-11-26 04:24:51 --> Call to undefined method App\Models\barang\CatatanLaporan::get_mount
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:29:36 --> Call to undefined function App\Models\barang\now()
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:29:40 --> Call to undefined function App\Models\barang\now()
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:31:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:32:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:19 --> Unsupported operand types: string % int
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:20 --> Unsupported operand types: string % int
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:21 --> Unsupported operand types: string % int
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:23 --> Unsupported operand types: string % int
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:30 --> Undefined constant "App\Models\barang\a"
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:31 --> Undefined constant "App\Models\barang\a"
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:33 --> Undefined constant "App\Models\barang\a"
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:34 --> Undefined constant "App\Models\barang\a"
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:34 --> Undefined constant "App\Models\barang\a"
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:43 --> Unsupported operand types: string % string
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:44 --> Unsupported operand types: string % string
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:44 --> Unsupported operand types: string % string
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:44 --> Unsupported operand types: string % string
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:45 --> Unsupported operand types: string % string
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:45 --> Unsupported operand types: string % string
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:33:45 --> Unsupported operand types: string % string
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:39:43 --> Call to undefined function App\Controllers\Base\now()
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:39:44 --> Call to undefined function App\Controllers\Base\now()
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:39:45 --> Call to undefined function App\Controllers\Base\now()
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:45:25 --> mysqli_sql_exception: Incorrect DATETIME value: '26' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-26 04:45:25 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 250.
+ 1 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:45:26 --> mysqli_sql_exception: Incorrect DATETIME value: '26' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-26 04:45:26 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 250.
+ 1 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:45:27 --> mysqli_sql_exception: Incorrect DATETIME value: '26' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-26 04:45:27 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 250.
+ 1 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:45:27 --> mysqli_sql_exception: Incorrect DATETIME value: '26' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-26 04:45:27 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 250.
+ 1 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:45:27 --> mysqli_sql_exception: Incorrect DATETIME value: '26' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-26 04:45:27 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH/Model.php on line 250.
+ 1 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH/Controllers/Base/Home.php(205): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:57:53 --> Call to undefined function App\Models\barang\now()
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:57:54 --> Call to undefined function App\Models\barang\now()
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:58:04 --> Call to undefined function App\Models\barang\now()
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:58:05 --> Call to undefined function App\Models\barang\now()
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 04:58:05 --> Call to undefined function App\Models\barang\now()
+in APPPATH/Models/barang/CatatanLaporan.php on line 25.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:35 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:35 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:36 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:36 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:37 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:37 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:37 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:37 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:39 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:39 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:39 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:39 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:39 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:39 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:39 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:39 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:40 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:40 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:40 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:40 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:40 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:40 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:40 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:40 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:40 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:40 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:41 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(column_name,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:41 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:54 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:54 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:55 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:55 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:55 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:55 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:55 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:55 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:56 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:56 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:56 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:56 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:56 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:56 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:56 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:56 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:57 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:57 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:57 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:57 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-26 04:59:57 --> mysqli_sql_exception: Incorrect DATETIME value: 'DATE_FORMAT(date_created,'%Y-%m')' in /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/inventory_agrioduct/app/Models/barang/CatatanLaporan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+#6 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+#7 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/inventory_agrioduct/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/inventory_agrioduct/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-26 04:59:57 --> Call to a member function getResult() on bool
+in APPPATH/Models/barang/CatatanLaporan.php on line 28.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:04:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+in APPPATH/Models/barang/CatatanLaporan.php on line 24.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:04:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+in APPPATH/Models/barang/CatatanLaporan.php on line 24.
+ 1 APPPATH/Controllers/Base/Home.php(207): App\Models\barang\CatatanLaporan->get_mount()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:08:56 --> Attempt to read property "qty" on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:09:15 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:09:16 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:09:16 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:09:16 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:09:16 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:09:17 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:02 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:03 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:03 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:04 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:04 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:23 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:23 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:23 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:24 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:24 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:24 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:24 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:26 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:30 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:31 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:10:31 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:15 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:16 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:18 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:18 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:18 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:18 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:37 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:38 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:48 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:49 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:50 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:24:51 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:25:59 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:00 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:01 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:02 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:09 --> Call to a member function where() on null
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:09 --> Call to a member function where() on null
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:10 --> Call to a member function where() on null
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:10 --> Call to a member function where() on null
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:10 --> Call to a member function where() on null
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:11 --> Call to a member function where() on null
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:11 --> Call to a member function where() on null
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:36 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:38 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:38 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:43 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:44 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:44 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:44 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:45 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:26:45 --> Attempt to read property "alias" on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:27:28 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:27:29 --> Call to a member function where() on array
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:30:49 --> Call to a member function findAll() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:30:50 --> Call to a member function findAll() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:32:08 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in /var/www/html/inventory_agrioduct/app/Controllers/Base/Home.php on line 204
+in SYSTEMPATH/BaseModel.php on line 568.
+ 1 APPPATH/Controllers/Base/Home.php(204): CodeIgniter\BaseModel->findAll()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:11 --> Undefined property: App\Controllers\Base\Home::$hasil
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:12 --> Undefined property: App\Controllers\Base\Home::$hasil
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:13 --> Undefined property: App\Controllers\Base\Home::$hasil
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:13 --> Undefined property: App\Controllers\Base\Home::$hasil
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:14 --> Undefined property: App\Controllers\Base\Home::$hasil
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:14 --> Undefined property: App\Controllers\Base\Home::$hasil
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 APPPATH/Controllers/Base/Home.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:25 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:26 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:33:27 --> Call to a member function findColumn() on array
+in APPPATH/Controllers/Base/Home.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:34:55 --> Attempt to read property "qty" on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:34:56 --> Attempt to read property "qty" on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:34:58 --> Attempt to read property "qty" on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:34:58 --> Attempt to read property "qty" on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:34:58 --> Attempt to read property "qty" on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:34:58 --> Attempt to read property "qty" on array
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:35:06 --> Cannot use [] for reading
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:35:07 --> Cannot use [] for reading
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:35:08 --> Cannot use [] for reading
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:35:09 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:35:53 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:35:55 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:35:56 --> Undefined array key "qty"
+in APPPATH/Controllers/Base/Home.php on line 207.
+ 1 APPPATH/Controllers/Base/Home.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:07 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:08 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:08 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:08 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:08 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:09 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:09 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:09 --> Undefined variable $sum
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 APPPATH/Controllers/Base/Home.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:34 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 05:36:35 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 209.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:41:43 --> Undefined array key 1
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 APPPATH/Controllers/Base/Home.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:41:44 --> Undefined array key 1
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 APPPATH/Controllers/Base/Home.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:42:00 --> syntax error, unexpected integer "1", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:42:17 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:42:18 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:42:19 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:42:19 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:42:21 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:52:01 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:52:08 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:53:17 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:53:19 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:54:15 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 07:54:31 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:01:22 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:02:40 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:02:42 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:03:32 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:03:35 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:03:37 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:03:46 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:03:48 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:04:21 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:04:22 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:05:48 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:05:50 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:06:07 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:06:59 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:07:02 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:07:35 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:07:38 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:08:08 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:08:24 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:08:39 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:08:41 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:08:44 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:10:40 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:10:42 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:11:42 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:11:44 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:14:13 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:14:19 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:14:36 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:15:34 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:15:38 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:15:55 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:18:38 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:19:25 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:21:06 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:21:11 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:21:13 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:22:29 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:22:31 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:23:02 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 349.
+ 1 APPPATH/Controllers/Base/Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:25:48 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 APPPATH/Controllers/Base/Home.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:25:52 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 APPPATH/Controllers/Base/Home.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:25:53 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 APPPATH/Controllers/Base/Home.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:25:53 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 APPPATH/Controllers/Base/Home.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:25:54 --> Undefined array key 7
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 APPPATH/Controllers/Base/Home.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:33:02 --> Undefined array key 1
+in APPPATH/Controllers/Base/Home.php on line 339.
+ 1 APPPATH/Controllers/Base/Home.php(339): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 08:36:14 --> Cannot use [] for reading
+in APPPATH/Controllers/Base/Home.php on line 213.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 19:43:45 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 222.
+ 1 APPPATH/Controllers/Base/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 19:43:47 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 222.
+ 1 APPPATH/Controllers/Base/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 19:44:01 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 222.
+ 1 APPPATH/Controllers/Base/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 19:44:02 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 222.
+ 1 APPPATH/Controllers/Base/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 19:44:03 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 222.
+ 1 APPPATH/Controllers/Base/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 19:44:04 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 222.
+ 1 APPPATH/Controllers/Base/Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 19:46:46 --> Cannot use [] for reading
+in APPPATH/Controllers/Base/Home.php on line 221.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:13:05 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 368.
+ 1 APPPATH/Controllers/Base/Home.php(368): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:13:23 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 368.
+ 1 APPPATH/Controllers/Base/Home.php(368): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:13:25 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 368.
+ 1 APPPATH/Controllers/Base/Home.php(368): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:13:36 --> Undefined array key 13
+in APPPATH/Controllers/Base/Home.php on line 368.
+ 1 APPPATH/Controllers/Base/Home.php(368): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:14:03 --> syntax error, unexpected token ";"
+in APPPATH/Controllers/Base/Home.php on line 351.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:14:03 --> syntax error, unexpected token ";"
+in APPPATH/Controllers/Base/Home.php on line 351.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:14:08 --> syntax error, unexpected token ";"
+in APPPATH/Controllers/Base/Home.php on line 351.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:14:08 --> syntax error, unexpected token ";"
+in APPPATH/Controllers/Base/Home.php on line 351.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:14:11 --> syntax error, unexpected token ";"
+in APPPATH/Controllers/Base/Home.php on line 351.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:14:11 --> syntax error, unexpected token ";"
+in APPPATH/Controllers/Base/Home.php on line 351.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-26 20:16:37 --> Undefined array key 12
+in APPPATH/Controllers/Base/Home.php on line 367.
+ 1 APPPATH/Controllers/Base/Home.php(367): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->stokChart()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

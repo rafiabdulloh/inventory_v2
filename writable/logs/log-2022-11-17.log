@@ -1,0 +1,1952 @@
+CRITICAL - 2022-11-17 00:14:28 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 283.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:16:22 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 283.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:16:23 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 283.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:16:23 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 283.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:16:41 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 283.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:16:52 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 283.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:16:53 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Base/Home.php on line 283.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 00:36:13 --> mysqli_sql_exception: Table 'agrioduct.users' doesn't exist in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-17 00:36:13 --> Table 'agrioduct.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 00:36:58 --> mysqli_sql_exception: Table 'agrioduct.users' doesn't exist in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-17 00:36:58 --> Table 'agrioduct.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 00:37:01 --> mysqli_sql_exception: Table 'agrioduct.users' doesn't exist in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-17 00:37:01 --> Table 'agrioduct.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 00:37:39 --> mysqli_sql_exception: Table 'agrioduct.users' doesn't exist in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#12 {main}
+CRITICAL - 2022-11-17 00:37:39 --> Table 'agrioduct.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AuthController.php(213): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AuthController->forgot_password()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:41:47 --> Undefined variable $accessibility
+in APPPATH/Views/user/user.php on line 11.
+ 1 APPPATH/Views/user/user.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(823): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:44:03 --> Undefined variable $accessibility
+in APPPATH/Views/lokasi/lokasi.php on line 6.
+ 1 APPPATH/Views/lokasi/lokasi.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/lokasi/lokasi.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(847): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->lokasi()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:46:20 --> Undefined variable $name
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Home.php(42): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:47:06 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 35.
+ 1 APPPATH/Controllers/Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:48:44 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 36.
+ 1 APPPATH/Controllers/Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:49:28 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(48): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:50:24 --> Trying to access array offset on value of type null
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Home.php(48): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:50:33 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(48): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:50:47 --> syntax error, unexpected token ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(48): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:52:18 --> Undefined variable $username
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Home.php(48): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:54:25 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:04 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:05 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:06 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:16 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:17 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:17 --> Call to undefined method CodeIgniter\Session\Session::setFlasdata()
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:31 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 36.
+ 1 APPPATH/Controllers/Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:56:32 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 36.
+ 1 APPPATH/Controllers/Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:57:00 --> syntax error, unexpected variable "$penerimaan"
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:57:06 --> Array to string conversion
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Home.php(47): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:57:07 --> Array to string conversion
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Home.php(47): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:57:32 --> Cannot use [] for reading
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(47): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:57:40 --> Array to string conversion
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Home.php(47): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:57:41 --> Array to string conversion
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Home.php(47): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 00:58:42 --> syntax error, unexpected variable "$data", expecting ";"
+in APPPATH/Controllers/Home.php on line 41.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:01:31 --> Undefined property: App\Controllers\Home::$user
+in APPPATH/Controllers/Home.php on line 39.
+ 1 APPPATH/Controllers/Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:01:58 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Query.php(329): implode()
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Debug/Toolbar/Collectors/Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Events/Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect()
+ 7 SYSTEMPATH/Database/BaseConnection.php(622): CodeIgniter\Events\Events::trigger()
+ 8 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 9 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+10 APPPATH/Models/barang/User.php(27): CodeIgniter\Model->__call()
+11 APPPATH/Controllers/Home.php(41): App\Models\barang\User->get_user()
+12 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+13 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:01:59 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Query.php(329): implode()
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Debug/Toolbar/Collectors/Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Events/Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect()
+ 7 SYSTEMPATH/Database/BaseConnection.php(622): CodeIgniter\Events\Events::trigger()
+ 8 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 9 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+10 APPPATH/Models/barang/User.php(27): CodeIgniter\Model->__call()
+11 APPPATH/Controllers/Home.php(41): App\Models\barang\User->get_user()
+12 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+13 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:02:53 --> Undefined array key "accessil"
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:02:54 --> Undefined array key "accessil"
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:02:55 --> Undefined array key "accessil"
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:03:27 --> Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:05:54 --> syntax error, unexpected identifier "get", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(51): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:05:56 --> syntax error, unexpected identifier "get", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(51): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:05:57 --> syntax error, unexpected identifier "get", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(51): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:06:01 --> syntax error, unexpected identifier "get", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(51): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:06:02 --> syntax error, unexpected identifier "get", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(51): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:06:04 --> syntax error, unexpected identifier "get", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(51): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:06:08 --> syntax error, unexpected identifier "get", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Home.php(51): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:06:31 --> Cannot access offset of type string on string
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(51): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 01:06:32 --> Cannot access offset of type string on string
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 19.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(51): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:03:17 --> Object of class App\Models\barang\Pengiriman could not be converted to string
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(283): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:03:52 --> Object of class App\Models\barang\Pengiriman could not be converted to string
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(283): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:04:46 --> Cannot use object of type App\Models\barang\Pengiriman as array
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(283): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:06:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:06:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:06:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:06:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:06:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:06:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:07:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:07:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:07:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:07:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:07:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:07:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:07:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:07:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:08:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:08:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:08:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:08:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 = :3:
+AND 4 = :4:
+AND 5 = :5:
+AND 6 = :6:
+AND ' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:12:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH/Controllers/Base/Home.php on line 284.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:12:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH/Controllers/Base/Home.php on line 284.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:12:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH/Controllers/Base/Home.php on line 284.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:12:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+in APPPATH/Controllers/Base/Home.php on line 284.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:15:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::select()
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:19:42 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:19:44 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:20:15 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:20:20 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:21:00 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:21:02 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:21:57 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:21:59 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+in APPPATH/Models/barang/Pengiriman.php on line 32.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 02:22:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH/Models/barang/Pengiriman.php on line 36.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:23:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`pengiriman`.`status`
+FROM `pengiriman`' at line 1 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:23:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`pengiriman`.`status`
+FROM `pengiriman`' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:24:35 --> mysqli_sql_exception: Unknown column 'from pengiriman where' in 'field list' in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:24:35 --> Unknown column 'from pengiriman where' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:24:40 --> mysqli_sql_exception: Unknown column 'from pengiriman where' in 'field list' in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:24:40 --> Unknown column 'from pengiriman where' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:31:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:31:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:31:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:31:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:31:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:31:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:31:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:31:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:31:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:31:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:32:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:32:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:32:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:32:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:32:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:32:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-17 02:32:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3 in /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/CI4-adminLTE3-Auth-starter/app/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /var/www/html/CI4-adminLTE3-Auth-starter/app/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+#6 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+#7 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/CI4-adminLTE3-Auth-starter/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/CI4-adminLTE3-Auth-starter/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('...')
+#11 {main}
+CRITICAL - 2022-11-17 02:32:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/barang/Pengiriman.php(33): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:05:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Models/barang/Pengiriman.php on line 29.
+ 1 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:06:28 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$query
+in APPPATH/Models/barang/Pengiriman.php on line 29.
+ 1 APPPATH/Models/barang/Pengiriman.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:06:29 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$query
+in APPPATH/Models/barang/Pengiriman.php on line 29.
+ 1 APPPATH/Models/barang/Pengiriman.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:06:31 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$query
+in APPPATH/Models/barang/Pengiriman.php on line 29.
+ 1 APPPATH/Models/barang/Pengiriman.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:06:42 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$query
+in APPPATH/Models/barang/Pengiriman.php on line 29.
+ 1 APPPATH/Models/barang/Pengiriman.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:06:45 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$query
+in APPPATH/Models/barang/Pengiriman.php on line 29.
+ 1 APPPATH/Models/barang/Pengiriman.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Base/Home.php(284): App\Models\barang\Pengiriman->get_status()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:23:47 --> Undefined variable $status
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 114.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Base/Home.php(95): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->barang()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:23:50 --> Undefined variable $status
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 114.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Base/Home.php(95): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->barang()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:33:33 --> Unclosed '{' on line 58
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 172.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Base/Home.php(97): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->barang()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 03:52:42 --> Undefined variable $leadup
+in APPPATH/Controllers/Base/Home.php on line 297.
+ 1 APPPATH/Controllers/Base/Home.php(297): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 04:05:01 --> Undefined variable $leadup
+in APPPATH/Controllers/Base/Home.php on line 499.
+ 1 APPPATH/Controllers/Base/Home.php(499): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->penerimaan()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 04:07:07 --> syntax error, unexpected token ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 87.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Base/Home.php(312): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 04:10:31 --> Undefined variable $penging
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 83.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Base/Home.php(312): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 04:29:14 --> syntax error, unexpected variable "$leadup", expecting "," or ";"
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 88.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Base/Home.php(312): view()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->pengiriman()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:17:16 --> Undefined variable $loc
+in APPPATH/Views/user/user.php on line 35.
+ 1 APPPATH/Views/user/user.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(901): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:17:28 --> Undefined variable $loc
+in APPPATH/Views/user/user.php on line 38.
+ 1 APPPATH/Views/user/user.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(901): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:17:31 --> Undefined variable $loc
+in APPPATH/Views/user/user.php on line 38.
+ 1 APPPATH/Views/user/user.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(901): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:17:38 --> Undefined variable $loc
+in APPPATH/Views/user/user.php on line 38.
+ 1 APPPATH/Views/user/user.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(901): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:17:40 --> Undefined variable $loc
+in APPPATH/Views/user/user.php on line 38.
+ 1 APPPATH/Views/user/user.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(901): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:17:41 --> Undefined array key "nama"
+in APPPATH/Views/user/user.php on line 38.
+ 1 APPPATH/Views/user/user.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(901): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:17:42 --> Undefined array key "nama"
+in APPPATH/Views/user/user.php on line 38.
+ 1 APPPATH/Views/user/user.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Base/Home.php(901): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 06:59:38 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH/Controllers/Base/Home.php on line 931.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Base/Home.php(931): md5()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->edit_user()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 07:00:57 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1598.
+ 1 SYSTEMPATH/BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Base/Home.php(932): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->edit_user()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 07:03:37 --> Undefined variable $accessibility
+in APPPATH/Views/dashboard/_partials/small-box/small-box.php on line 102.
+ 1 APPPATH/Views/dashboard/_partials/small-box/small-box.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/_partials/small-box/small-box.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard/dashboard.php(8): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Home.php(54): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 18:10:08 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH/Controllers/Base/Home.php on line 931.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Base/Home.php(931): md5()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->edit_user()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 18:12:51 --> Call to undefined function App\Controllers\Base\mad5()
+in APPPATH/Controllers/Base/Home.php on line 806.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->do_login()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 19:04:19 --> Invalid file: contact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Base/Home.php(981): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 19:04:47 --> Undefined variable $title
+in APPPATH/Views/dashboard/_partials/breadcrumb/breadcrumb.php on line 5.
+ 1 APPPATH/Views/dashboard/_partials/breadcrumb/breadcrumb.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/_partials/breadcrumb/breadcrumb.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/contact/contact.php(3): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/contact/contact.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Base/Home.php(981): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 19:04:51 --> Undefined variable $title
+in APPPATH/Views/dashboard/_partials/breadcrumb/breadcrumb.php on line 5.
+ 1 APPPATH/Views/dashboard/_partials/breadcrumb/breadcrumb.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/_partials/breadcrumb/breadcrumb.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/contact/contact.php(3): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/contact/contact.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Base/Home.php(981): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 19:05:22 --> syntax error, unexpected token "if"
+in APPPATH/Controllers/Base/Home.php on line 977.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 19:05:23 --> Undefined variable $pending
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 58.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Base/Home.php(982): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 19:05:25 --> Undefined variable $pending
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 58.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Base/Home.php(982): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 19:05:32 --> Undefined variable $pending
+in APPPATH/Views/_layouts/_partials/sidebar.php on line 58.
+ 1 APPPATH/Views/_layouts/_partials/sidebar.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_partials/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/_layouts/_layouts.php(32): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/_layouts/_layouts.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+10 APPPATH/Controllers/Base/Home.php(982): view()
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Base\Home->contact()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 21:10:28 --> Undefined property: App\Controllers\Home::$penerimaan
+in APPPATH/Controllers/Home.php on line 33.
+ 1 APPPATH/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 21:11:03 --> Undefined property: App\Controllers\Home::$penerimaan
+in APPPATH/Controllers/Home.php on line 33.
+ 1 APPPATH/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 21:11:04 --> Undefined property: App\Controllers\Home::$penerimaan
+in APPPATH/Controllers/Home.php on line 33.
+ 1 APPPATH/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-17 21:11:06 --> Undefined property: App\Controllers\Home::$penerimaan
+in APPPATH/Controllers/Home.php on line 33.
+ 1 APPPATH/Controllers/Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
